@@ -1,0 +1,78 @@
+#mainHeader {
+    text-align: left;
+    font-size: 30px;
+    font-family: "Comic Sans MS", bold;
+    color: rgb(10, 20, 168);
+    margin-bottom: 30px;
+}
+
+
+/* apply to all elements in configSection */
+#configSection > * {
+    display: block;
+    margin: 10px;
+}
+
+#excelFilePicker {
+    margin-bottom: 20px;
+}
+
+#processButton {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+    color: rgb(10, 20, 168);
+}
+
+#infoMonth {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+    color: rgb(10, 20, 168);
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+td, th {
+    width: 400px;
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.headerValue, .itemValue, .subHeaderValue {
+    width: 150px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.mark {
+    width: 70px;
+}
+
+.header, .headerValue {
+    color: rgb(10, 20, 168);
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+}
+
+.item, .itemValue {
+    color: rgb(0, 0, 0);
+    font-family: "Comic Sans MS";
+    font-size: 13px;
+}
+
+.subHeader, .subHeaderValue {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+}
